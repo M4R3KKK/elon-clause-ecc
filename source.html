@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Elon Claus Christmas • $ECC</title>
+  <meta name="description" content="Holiday-themed memecoin blending Christmas spirit with Elon Musk as futuristic Santa Claus."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;600;700&display=swap');
+    body{margin:0;font-family:Poppins,sans-serif}h1{font-family:Orbitron,sans-serif}
+    .gradient-text{background:linear-gradient(to right,#f97316,#fbbf24,#ef4444);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero-bg{background:url('https://i.ibb.co/Cpqy3CsN/photo-2025-12-08-23-55-25.jpg') center/cover no-repeat fixed;min-height:100vh;position:relative}
+    .hero-bg::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.9))}
+  </style>
+</head>
+<body class="text-white" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+<section class="hero-bg relative flex flex-col">
+
+  <header class="fixed top-0 w-full z-50 backdrop-blur-lg bg-black/70">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <a href="#" class="text-2xl md:text-3xl font-bold gradient-text">Elon Claus Christmas $ECC</a>
+      <a href="#" class="hidden md:block text-lg hover:text-orange-400">HOME</a>
+    </div>
+  </header>
+
+  <div class="relative z-10 text-center px-6 pt-32 pb-20 max-w-5xl mx-auto flex-1 flex flex-col justify-center">
+
+    <h1 class="text-6xl md:text-8xl font-black gradient-text drop-shadow-2xl mb-6">ELON CLAUS</h1>
+    <h2 class="text-3xl md:text-5xl text-orange-200 mb-10">$ECC · Christmas Edition</h2>
+
+    <p class="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed opacity-95 mb-10">
+      Elon Claus Christmas $ECC gives you a holiday-themed token that blends Christmas spirit with a playful take on Elon Musk as a futuristic Santa Claus.<br><br>
+      Your community joins a seasonal event with gifts, surprises, and shared fun tied to the festive theme.<br><br>
+      This token brings a lighthearted story, a clear concept, and a memorable character for your holiday project — without any association or endorsement from Elon Musk.
+    </p>
+
+    <p class="text-amber-300 text-lg italic mb-12">Created for fun, not for profit — enjoy your gift responsibly!</p>
+
+    <!-- Community link (dočasně místo CA) -->
+    <div class="inline-block p-6 bg-white/10 backdrop-blur-lg border border-orange-600/50 rounded-2xl mb-12">
+      <p class="text-sm text-gray-400 mb-2">Join the sleigh ride</p>
+      <p class="text-orange-400 font-mono text-lg break-all cursor-pointer hover:text-orange-300"
+         onclick="navigator.clipboard.writeText('https://t.me/ElonClause_Sol');alert('Telegram link copied!')">
+        https://t.me/ElonClause_Sol
+      </p>
+    </div>
+
+    <!-- Tlačítka -->
+    <div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+      <a href="https://pump.fun/TVOJE_PUMP_FUN_ADRESA" target="_blank"
+         class="px-14 py-6 bg-gradient-to-r from-orange-600 to-red-600 rounded-full text-2xl font-bold hover:scale-105 transition shadow-2xl">
+        BUY $ECC ON PUMP.FUN
+      </a>
+      <a href="https://t.me/ElonClause_Sol" target="_blank"
+         class="px-14 py-6 border-2 border-orange-500 rounded-full text-2xl font-bold hover:bg-orange-600/20 transition">
+        JOIN COMMUNITY
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Sněžení -->
+  <script>
+    setInterval(()=>{confetti({particleCount:45,spread:110,origin:{y:0},colors:['#f97316','#fbbf24','#ef4444','#ffffff']})},4000);
+  </script>
+
+</section>
+</body>
+</html>
